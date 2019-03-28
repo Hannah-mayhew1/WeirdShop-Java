@@ -19,7 +19,7 @@ public class RegressionTest {
         };
 
         StringBuilder sb = new StringBuilder();
-        WeirdShopOld weirdShop = new WeirdShopOld(items);
+        WeirdShopTwo weirdShop = new WeirdShopTwo(items);
 
         addItems(sb, 0, items);
 
